@@ -31,7 +31,7 @@ export default function ChooseUs() {
       <div className="flex flex-row max-w-screen-xl w-full mx-auto">
         {
           whyContent.map(item => (
-            <div className="flex flex-col w-full justify-end h-fit gap-8 items-center fill-red-500">
+            <div className="flex flex-col w-full justify-end h-fit gap-8 items-center fill-red-500" key={item.src}>
               <Image
                 src={`/${item.src}.svg`}
                 width={200}

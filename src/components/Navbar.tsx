@@ -1,3 +1,5 @@
+"use client"
+
 import { logoFont } from "@/styles/fonts";
 import { FaFacebookF, FaPinterestP, FaInstagram } from "react-icons/fa"
 import { AiOutlineHeart, AiOutlineShoppingCart } from "react-icons/ai"
@@ -33,6 +35,7 @@ export default function Navbar() {
       behavior: "smooth"
     })
   }
+
   return (
     <div className="flex flex-row text-4xl w-full h-fit fixed items-center z-50 ">
       <div className="flex flex-row w-2/3 h-full items-center gap-24 pl-24 pr-80 py-4">
