@@ -7,7 +7,7 @@ export default function About() {
       <div className="relative flex flex-row justify-end">
         <div className="hidden lg:flex absolute right-[calc((200%/3)-100px)] bg-green-500 w-80 h-[calc(75%)] top-16">
             <Image
-                src="/Tiles.webp"
+                src="/my-factory/Tiles.webp"
                 width={500}
                 height={500}
                 alt="INSERT"

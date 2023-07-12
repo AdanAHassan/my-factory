@@ -40,7 +40,7 @@ export default function Shop() {
           imageContent.map(item => (
             <div className="relative flex flex-col w-full h-80 items-center" key={item.title}>
               <Image 
-                src={`${item.src}`}
+                src={`/my-factory/${item.src}`}
                 alt={item.alt}
                 width={500}
                 height={500}
