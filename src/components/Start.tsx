@@ -18,7 +18,7 @@ export default function Start() {
       <div className="hidden relative md:flex flex-col w-1/3 bg-primaryThree">
         <Image
           className="w-[40vw] h-[70vh] bg-red-500 absolute top-[20vh] right-[10vw] z-10"
-          src="/StartVase.webp"
+          src="/my-factory/StartVase.webp"
           alt="Collection of ceramic items"
           width={500}
           height={500}
